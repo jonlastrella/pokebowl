@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family:'Montserrat'
+}
+.logo{
+    font-weight:600;
+    text-decoration: none;
+}
+header{
+    display:flex;
+    width:80%;
+    margin:auto;
+    align-items: center;
+    height:10vh;
+}
+.headerbackground{
+    width:100%;
+    background-color:lightpink;
+}
+.content-background{
+    background-color:bisque;
+    padding-bottom:100px;
+}
+.logo{
+    color:rgb(7, 104, 7);
+    font-size:30px;
+}
+.logo-container{
+flex:1;
+}
+nav{
+    flex:1;
+}
+.navlink{
+list-style-type: none;
+display:flex;
+justify-content: space-around;
+}
+.navlinks, .checkout{
+    text-decoration: none;
+    color:green;
+    font-size:12px;
+}
+.navlinks:hover,.checkout:hover{
+    color:white;
+    border-bottom: 1px solid black;
+}
+.times{
+    width:80%;
+    margin:auto;
+    display:flex;
+}
+.operation{
+    list-style-type: none;
+}
+.motto{
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+    text-align: center;
+    font-style: italic;
+    font-size:20px;
+}
+.motto2{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    font-style: italic;
+    font-size:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.mainpic{
+    display:flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+.op{
+    font-size:20px;
+}
+.hours{
+    margin-top:50px;
+}
+.hour{
+    font-size:15px;
+}
+.photo, .recommendations, .review{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:space-evenly;
+}
+.photos{
+    height:30vh;
+    width:auto;
+}
+.recommendation{
+    text-align: center;
+    font-size:30px;
+    margin:30px;
+}
+.bowl{
+    list-style-type: none;
+}
+.bowlname{
+    text-align: center;
+    font-weight:bolder;
+}
+.description{
+    font-style: italic;
+    margin:20px;
+    text-align: center;
+}
+.button{
+    display:flex;
+    width:80%;
+    margin:auto;
+    justify-content: center;
+    margin-top: 60px;
+}
+.menu{
+    font-family: 'Montserrat';
+    font-weight:bolder;
+    color:white;
+    background-color:lightpink;
+    height:40px;
+    width:200px;
+}
+.reviews{
+    list-style-type: none;
+    margin-top: 130px;
+}
+.reviewdesc{
+    font-weight:bold;
+    font-size:20px;
+}
+.quote, .reviewdesc, .yelp{
+    text-align: center;
+}
+.quote{
+    font-size:30px;
+}
+.yelp{
+    margin-top: 20px;
+    font-weight:300;
+}
+.bottom{
+    width:100%;
+    height:20vh;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    background-color:lightpink;
+    align-items: center;
+}
+.location{
+    list-style-type:none;
+}
